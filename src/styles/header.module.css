@@ -1,0 +1,26 @@
+.main_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_input {
+  background: none;
+  border: none;
+  padding: 0 1rem;
+  margin: auto 0;
+}
+
+.search_div {
+  background-color: #1e1e1e;
+  border-radius: 2rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  margin: auto 1rem;
+  display: flex;
+}
+
+.dark_icons {
+  color: #5e5e5e;
+  margin: auto 0;
+}

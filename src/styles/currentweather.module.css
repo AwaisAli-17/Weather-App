@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.current_weather_parent_div {
+  width: 35vw;
+  margin: 1rem 0;
+  background-color: #1e1e1e;
+  padding: 2.2rem;
+  border-radius: 20px;
+}
+.location_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location_button {
+  background-color: #007aff;
+  border-radius: 16px;
+  padding: 15px;
+  border: none;
+}
+
+.location_button i {
+  color: white;
+  margin: 5px;
+}
+
+.location_button p {
+  color: white;
+  display: inline;
+}
+
+.location_div select {
+  background-color: #007aff;
+  color: white;
+  border: 0px;
+  border-radius: 12px;
+  padding: 10px 10px;
+}
+
+.weather_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.weather_div p {
+  padding: 5px 0;
+}
+
+.weather_image_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+}
